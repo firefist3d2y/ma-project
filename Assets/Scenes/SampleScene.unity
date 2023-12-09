@@ -380,11 +380,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 692290271909045887, guid: 9239e545af469e943bb138c07fcb7abf, type: 3}
       propertyPath: m_fontSize
-      value: 57.8
+      value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 692290271909045887, guid: 9239e545af469e943bb138c07fcb7abf, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601040953245317071, guid: 9239e545af469e943bb138c07fcb7abf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bec7b0947111fa240869b9390d4f6f4b, type: 3}
     - target: {fileID: 6309460471673861603, guid: 9239e545af469e943bb138c07fcb7abf, type: 3}
       propertyPath: m_Name
       value: ScorebordButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 6346226517357069692, guid: 9239e545af469e943bb138c07fcb7abf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6346226517357069692, guid: 9239e545af469e943bb138c07fcb7abf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -87.7
       objectReference: {fileID: 0}
     - target: {fileID: 8396498522558374042, guid: 9239e545af469e943bb138c07fcb7abf, type: 3}
       propertyPath: m_Pivot.x
@@ -648,7 +664,7 @@ SpriteRenderer:
   m_Size: {x: 3.48, y: 3.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1971750484
