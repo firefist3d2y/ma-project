@@ -9,7 +9,7 @@
                     "name": "Move",
                     "type": "Value",
                     "id": "431f1a09-e72e-4101-b1a0-e59a648b8294",
-                    "expectedControlType": "Vector2",
+                    "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -162,17 +162,6 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Joystick",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "426516b3-7c83-4cc9-9079-eca3f5215b30",
-                    "path": "<Sensor>/{Tilt}",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false
