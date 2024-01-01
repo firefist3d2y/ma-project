@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using static UnityEditor.Timeline.TimelinePlaybackControls;
+using UnityEngine.SceneManagement;
 
 public class BallController : MonoBehaviour
 {
@@ -52,6 +52,21 @@ public class BallController : MonoBehaviour
             other.gameObject.SetActive(false);
             score++;
             SetScoreText();
+        }
+        if (other.gameObject.CompareTag("GameEnd"))
+        {
+            //@todo temporary
+            SceneManager.LoadScene("MainMenu");
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            Debug.Log(collision.gameObject.tag);
+            rb.AddForce(75f, 0f, 75f);
         }
     }
 
