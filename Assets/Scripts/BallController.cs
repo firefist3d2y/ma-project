@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEditor.Timeline.TimelinePlaybackControls;
 
 public class BallController : MonoBehaviour
 {
@@ -10,8 +12,10 @@ public class BallController : MonoBehaviour
     private float movementX;
     private float movementY;
 
-
     public float speed = 1;
+
+    private int score = 0;
+    public TextMeshProUGUI scoreText;
 
     // Start is called before the first frame update
     void Start()
@@ -46,7 +50,14 @@ public class BallController : MonoBehaviour
         if (other.gameObject.CompareTag("PickUp"))
         {
             other.gameObject.SetActive(false);
+            score++;
+            SetScoreText();
         }
+    }
+
+    private void SetScoreText()
+    {
+        scoreText.text = "Score: " + score.ToString();
     }
 
 }
