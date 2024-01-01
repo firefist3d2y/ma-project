@@ -47,6 +47,7 @@ public class BallController : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        Debug.Log(other.gameObject.tag);
         if (other.gameObject.CompareTag("PickUp"))
         {
             other.gameObject.SetActive(false);
@@ -65,8 +66,7 @@ public class BallController : MonoBehaviour
         
         if (collision.gameObject.CompareTag("Obstacle"))
         {
-            Debug.Log(collision.gameObject.tag);
-            rb.AddForce(75f, 0f, 75f);
+            rb.AddForce(100f, 0f, 100f);
         }
     }
 

@@ -496,7 +496,7 @@ Transform:
   m_GameObject: {fileID: 370832634}
   serializedVersion: 2
   m_LocalRotation: {x: 0.3309492, y: -0.13535802, z: 0.06920189, w: 0.9313227}
-  m_LocalPosition: {x: 0.9, y: 8.63, z: -4.99}
+  m_LocalPosition: {x: 5.367, y: 8.63, z: 0.851}
   m_LocalScale: {x: 0.5, y: 0.6666667, z: 0.6666666}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1026,7 +1026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36900a67551d02a489daea79108e078c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.01
+  speed: 0.007
 --- !u!1 &928756663
 GameObject:
   m_ObjectHideFlags: 0
@@ -1591,7 +1591,7 @@ GameObject:
   - component: {fileID: 1389181633}
   m_Layer: 0
   m_Name: End
-  m_TagString: Untagged
+  m_TagString: GameEnd
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1626,7 +1626,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
