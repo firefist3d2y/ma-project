@@ -40,4 +40,13 @@ public class BallController : MonoBehaviour
         // Apply force to the Rigidbody
         rb.AddForce(movement * speed);
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("PickUp"))
+        {
+            other.gameObject.SetActive(false);
+        }
+    }
+
 }
