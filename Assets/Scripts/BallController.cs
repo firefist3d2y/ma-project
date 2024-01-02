@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -11,6 +12,9 @@ public class BallController : MonoBehaviour
 
     private float movementX;
     private float movementY;
+
+    private float startAccX = 0;
+    private float startAccY = 0;
 
     public float speed = 1;
 
@@ -30,7 +34,6 @@ public class BallController : MonoBehaviour
         
         Vector2 movementVector = movementValue.Get<Vector2>();
 
-        
         movementX = movementVector.x;
         movementY = movementVector.y;
     }
@@ -40,6 +43,20 @@ public class BallController : MonoBehaviour
     {
         // 3D movement vector 
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
+
+        if(movementX == 0 && movementX == 0)// @todo: verbessern 
+        {
+            if(startAccX == 0)
+            {
+                startAccX = Input.acceleration.x;
+                startAccY = Input.acceleration.y;
+            }
+            Debug.Log("x: " + (Input.acceleration.x - startAccX).ToString() + " !!! y: "
+                + (Input.acceleration.x - startAccX).ToString());
+
+            movement = new Vector3(Input.acceleration.x - startAccX, 0.0f, Input.acceleration.y - startAccY);
+            //rb.velocity = movement * speed;
+        }
 
         // Apply force to the Rigidbody
         rb.AddForce(movement * speed);
