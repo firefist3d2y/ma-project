@@ -41,19 +41,19 @@ public class BallController : MonoBehaviour
     // called once per fixed frame-rate frame
     private void FixedUpdate()
     {
+        Debug.Log("x: " + movementX.ToString() + " !!! y: "
+    + movementY.ToString());
+
         // 3D movement vector 
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
 
-        if(movementX == 0 && movementX == 0)// @todo: verbessern 
+        if(movementX == 0 && movementY == 0)// @todo: verbessern 
         {
             if(startAccX == 0)
             {
                 startAccX = Input.acceleration.x;
                 startAccY = Input.acceleration.y;
             }
-            Debug.Log("x: " + (Input.acceleration.x - startAccX).ToString() + " !!! y: "
-                + (Input.acceleration.x - startAccX).ToString());
-
             movement = new Vector3(Input.acceleration.x - startAccX, 0.0f, Input.acceleration.y - startAccY);
             //rb.velocity = movement * speed;
         }
