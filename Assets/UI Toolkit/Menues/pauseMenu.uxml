@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:GroupBox name="PauseMenuGroup" style="height: 80%; width: 33%; left: 33%; top: 10%; align-self: auto; bottom: auto; flex-direction: column;">
+        <ui:Label tabindex="-1" text="Pause" parse-escape-sequences="true" display-tooltip-when-elided="true" name="pauseLabel" style="-unity-text-align: upper-center; text-overflow: ellipsis; -unity-font-style: bold; font-size: 20px; align-items: auto; height: 15%; bottom: auto; white-space: normal; top: 10%;" />
+        <ui:Button text="Weiter" parse-escape-sequences="true" display-tooltip-when-elided="true" name="resumeBtn" style="text-overflow: ellipsis; -unity-text-align: middle-center; align-items: auto; height: 15%; top: 10%;" />
+        <ui:Button text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="settingsBtn" style="text-overflow: ellipsis; -unity-text-align: middle-center; align-items: auto; height: 15%; left: auto; top: 10%;" />
+        <ui:Button text="Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="menuBtn" style="text-overflow: ellipsis; -unity-text-align: middle-center; align-items: auto; align-self: auto; position: relative; height: 15%; top: 10%; left: auto;" />
+    </ui:GroupBox>
+</ui:UXML>
