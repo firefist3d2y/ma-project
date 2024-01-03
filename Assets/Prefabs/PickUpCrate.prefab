@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 511224260335628179}
   - component: {fileID: 845477624113783799}
   - component: {fileID: 3231081356088629281}
-  - component: {fileID: 38974864699679955}
+  - component: {fileID: 3405757711553675837}
   m_Layer: 0
   m_Name: PickUpCrate
   m_TagString: PickUp
@@ -106,7 +106,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &38974864699679955
+--- !u!114 &3405757711553675837
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
