@@ -5,7 +5,7 @@ using UnityEngine;
 //@todo: genereller machen
 public class MovingWallMover : MonoBehaviour
 {
-    public float speed = 0.01f;
+    public float speed = 1;
     private float startPosZ;
 
 
@@ -23,7 +23,7 @@ public class MovingWallMover : MonoBehaviour
         {
             speed *= -1;
         }
-        transform.Translate(new Vector3(0f, 0f, speed));
+        transform.Translate(new Vector3(0f, 0f, speed) * Time.deltaTime);
 
     }
 }
