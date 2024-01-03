@@ -11,12 +11,6 @@ public class SceneChanger : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
-    public void level1()
-    {
-        Debug.Log("level1");
-        SceneManager.LoadScene("Level1");
-    }
-
     public void changeScene(string sceneName)
     {
         Debug.Log("change to: " + sceneName);
