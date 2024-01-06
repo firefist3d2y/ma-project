@@ -24,14 +24,12 @@ public class BallController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
         rb = GetComponent<Rigidbody>();
     }
 
     // when move input is detected
     void OnMove(InputValue movementValue)
     {
-        
         Vector2 movementVector = movementValue.Get<Vector2>();
 
         movementX = movementVector.x;

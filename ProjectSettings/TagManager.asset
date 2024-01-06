@@ -7,6 +7,7 @@ TagManager:
   - PickUp
   - Obstacle
   - GameEnd
+  - Wall
   layers:
   - Default
   - TransparentFX
