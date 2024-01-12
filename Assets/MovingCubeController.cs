@@ -5,12 +5,12 @@ using UnityEngine;
 public class MovingCubeController : MonoBehaviour
 {
     public float speed;
-    private int direction;
+    public int direction;
 
     private void Start()
     {
         speed = 1f;
-        direction = 1;
+        //direction = 1;
     }
 
     // Update is called once per frame
@@ -21,7 +21,19 @@ public class MovingCubeController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        direction *= -1;
-        Debug.Log("COLLISION ENTERED");
+        if(!collision.collider.CompareTag("Player"))
+        {
+            direction *= -1;
+        }
+        
+        //Debug.Log("COLLISION ENTERED");
     }
+
+    /*private void OnTriggerEnter(Collider other)
+    {
+        if (!other.CompareTag("Player"))
+        {
+            direction *= -1;
+        }
+    }*/
 }

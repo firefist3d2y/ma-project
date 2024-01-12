@@ -106,6 +106,7 @@
     <Compile Include="Assets\Scripts\ObjectController\BallCameraController.cs" />
     <Compile Include="Assets\Scripts\ObjectController\BallController.cs" />
     <Compile Include="Assets\MovingBlockController.cs" />
+    <Compile Include="Assets\PortalController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
   <ItemGroup>

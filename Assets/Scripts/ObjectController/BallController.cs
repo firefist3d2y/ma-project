@@ -62,7 +62,7 @@ public class BallController : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.gameObject.tag);
+        //Debug.Log(other.gameObject.tag);
         if (other.gameObject.CompareTag("PickUp"))
         {
             other.gameObject.SetActive(false);
