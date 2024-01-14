@@ -31,11 +31,11 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
   m_LocalPosition: {x: 1.31, y: 0.0025, z: 3.6554246}
-  m_LocalScale: {x: 1.2696916, y: 0.7457655, z: 0.010391501}
+  m_LocalScale: {x: 1.5808299, y: 0.53636855, z: 0.005195751}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
 --- !u!33 &5985061243200097709
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 142f6e09f97805548a1e1b1e1ef59220, type: 2}
+  - {fileID: 2100000, guid: b67cdd728632d784bb1c5277d33b9f5f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -106,9 +106,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
-  m_Height: 2
+  m_Height: 2.9472828
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.000002667031, z: 0}
 --- !u!114 &3441024757304046635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124,6 +124,9 @@ MonoBehaviour:
   player: {fileID: 0}
   otherPortal: {fileID: 0}
   cam: {fileID: 0}
+  spawnX: 0
+  spawnY: 0
+  spawnZ: 0
 --- !u!54 &8541522846363279982
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -147,7 +150,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0

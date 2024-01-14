@@ -7,6 +7,9 @@ public class PortalController : MonoBehaviour
     public GameObject player;
     public GameObject otherPortal;
     public GameObject cam;
+    public float spawnX;
+    public float spawnY;
+    public float spawnZ;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +22,7 @@ public class PortalController : MonoBehaviour
         Debug.Log("Portal Collision detected!");
         if (collision.collider.CompareTag("Player"))
         {
-            player.transform.position = otherPortal.transform.position + new Vector3(1, 1, 0);
+            player.transform.position = otherPortal.transform.position + new Vector3(spawnX, spawnY, spawnZ);
         }
     }
 }
