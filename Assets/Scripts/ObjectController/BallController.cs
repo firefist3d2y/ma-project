@@ -16,7 +16,8 @@ public class BallController : MonoBehaviour
     private float startAccX = 0;
     private float startAccY = 0;
 
-    public float speed = 1;
+    public float acceleration = 2;
+    public float maxSpeed = 5;
 
     private int score = 0;
     public TextMeshProUGUI scoreText;
@@ -41,8 +42,6 @@ public class BallController : MonoBehaviour
     // called once per fixed frame-rate frame
     private void FixedUpdate()
     {
-        Debug.Log("x: " + movementX.ToString() + " !!! y: "
-    + movementY.ToString());
 
         // 3D movement vector 
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
@@ -54,12 +53,19 @@ public class BallController : MonoBehaviour
                 startAccX = Input.acceleration.x;
                 startAccY = Input.acceleration.y;
             }
+
             movement = new Vector3(Input.acceleration.x - startAccX, 0.0f, Input.acceleration.y - startAccY);
-            //rb.velocity = movement * speed;
+
         }
 
         // Apply force to the Rigidbody
-        rb.AddForce(movement * speed);
+        rb.AddForce(movement * acceleration);
+
+        // stay under maxSpeed
+        if (rb.velocity.magnitude > maxSpeed)
+        {
+            rb.velocity = rb.velocity.normalized * maxSpeed;
+        }
     }
 
     void OnTriggerEnter(Collider other)
@@ -80,10 +86,10 @@ public class BallController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        
+        // @todo: move in Obstacle Classes
         if (collision.gameObject.CompareTag("Obstacle"))
         {
-            rb.AddForce(90f, 0f, 90f);
+            rb.AddForce(70f, 0f, 70f);
         }
     }
 
