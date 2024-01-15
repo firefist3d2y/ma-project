@@ -40,12 +40,6 @@ public class BallController : MonoBehaviour
     // called once per fixed frame-rate frame
     private void FixedUpdate()
     {
-<<<<<<< HEAD
-        //Debug.Log("x: " + movementX.ToString() + " !!! y: "
-    //+ movementY.ToString());
-=======
->>>>>>> b40771f04022e9133cbe33ce878939eeebfbe1a9
-
         // 3D movement vector 
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
 
