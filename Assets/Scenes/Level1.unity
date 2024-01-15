@@ -1992,8 +1992,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31f82a9e4f946854395c1bccbca3dda3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  scoreText: {fileID: 440447649}
+  speed: 2
+  scoreText: {fileID: 0}
 --- !u!1 &1627464886
 GameObject:
   m_ObjectHideFlags: 0
@@ -2868,10 +2868,6 @@ PrefabInstance:
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 440447649}
-    - target: {fileID: 4073281732873982672, guid: 2a98ef3140c0b77418e4a75764d6fcc8, type: 3}
-      propertyPath: m_Mass
-      value: 0.2
-      objectReference: {fileID: 0}
     - target: {fileID: 4282510294490742111, guid: 2a98ef3140c0b77418e4a75764d6fcc8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.535
