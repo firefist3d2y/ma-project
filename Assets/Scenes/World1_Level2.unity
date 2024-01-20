@@ -288,6 +288,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5968877755081523293, guid: a641b2ca767dde84eb506882cfa2585f, type: 3}
+      propertyPath: maxSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968877755081523293, guid: a641b2ca767dde84eb506882cfa2585f, type: 3}
+      propertyPath: acceleration
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7360676275081506360, guid: a641b2ca767dde84eb506882cfa2585f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
