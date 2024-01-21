@@ -65,7 +65,7 @@ public class MovingWallMoverV2 : MonoBehaviour
             {
                 speed *= -1;
             }
-            transform.Translate(new Vector3(speed, 0f, 0f) * Time.deltaTime);
+            transform.Translate(new Vector3(0f, 0f, speed) * Time.deltaTime);
         }
     }
 }
