@@ -9,6 +9,7 @@ TagManager:
   - GameEnd
   - Wall
   - RedPortal
+  - Key
   layers:
   - Default
   - TransparentFX
