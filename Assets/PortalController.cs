@@ -6,7 +6,6 @@ public class PortalController : MonoBehaviour
 {
     public GameObject player;
     public GameObject otherPortal;
-    public GameObject cam;
     public float spawnX;
     public float spawnY;
     public float spawnZ;
