@@ -29,7 +29,6 @@ public class KeyScript : MonoBehaviour
     {
         if (isCollected)
         {
-            //transform.Translate(player.transform.position.x + 5, player.transform.position.y + 5, player.transform.position.z + 5);
             transform.position = player.transform.position + offset;
         }
     }

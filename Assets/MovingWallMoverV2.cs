@@ -21,10 +21,7 @@ public class MovingWallMoverV2 : MonoBehaviour
         startX = transform.position.x;
         startY = transform.position.y;
         startZ = transform.position.z;  
-        axis = new Dictionary<string, bool>();
-        axis.Add("X", useX);
-        axis.Add("Y", useY);
-        axis.Add("Z", useZ);
+        
         if (useX)
         {
             useY = false;
