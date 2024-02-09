@@ -7751,7 +7751,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 815743f2babbfe1428e2b1b7a62745fc, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 815743f2babbfe1428e2b1b7a62745fc, type: 3}
       propertyPath: m_LocalScale.x
@@ -11389,7 +11389,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &865182506
 Transform:
   m_ObjectHideFlags: 0
@@ -15772,7 +15772,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1167459103
 Transform:
   m_ObjectHideFlags: 0
@@ -16024,7 +16024,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 815743f2babbfe1428e2b1b7a62745fc, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 815743f2babbfe1428e2b1b7a62745fc, type: 3}
       propertyPath: m_LocalScale.x
@@ -17454,7 +17454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1286538143}
   m_Layer: 0
-  m_Name: Platform1 (1)
+  m_Name: Platform6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28529,11 +28529,11 @@ SceneRoots:
   m_Roots:
   - {fileID: 1458084703}
   - {fileID: 1868909583}
-  - {fileID: 1286538143}
   - {fileID: 1807673443}
   - {fileID: 1109665439}
   - {fileID: 563761146}
   - {fileID: 383693234}
+  - {fileID: 1286538143}
   - {fileID: 1008899380}
   - {fileID: 823628288}
   - {fileID: 435953616}
