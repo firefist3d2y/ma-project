@@ -674,7 +674,7 @@ GameObject:
   - component: {fileID: 472684649}
   - component: {fileID: 472684648}
   m_Layer: 0
-  m_Name: NorthRoom2,3Wall (1)
+  m_Name: NorthRoom3,4Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
