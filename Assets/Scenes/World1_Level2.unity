@@ -550,7 +550,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5968877755081523293, guid: a641b2ca767dde84eb506882cfa2585f, type: 3}
       propertyPath: maxSpeed
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5968877755081523293, guid: a641b2ca767dde84eb506882cfa2585f, type: 3}
       propertyPath: acceleration
@@ -1499,8 +1499,8 @@ Transform:
   m_GameObject: {fileID: 406740551}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.67, y: 0.22, z: -3.13}
-  m_LocalScale: {x: 0.1575195, y: 2, z: 13.299845}
+  m_LocalPosition: {x: -6.67, y: 0.2200001, z: -3.13}
+  m_LocalScale: {x: 0.1575195, y: 4, z: 13.299845}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 801295768}
@@ -2228,7 +2228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7360676275081506360, guid: a641b2ca767dde84eb506882cfa2585f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.38
+      value: -1.3800001
       objectReference: {fileID: 0}
     - target: {fileID: 7360676275081506360, guid: a641b2ca767dde84eb506882cfa2585f, type: 3}
       propertyPath: m_LocalPosition.z
