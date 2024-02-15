@@ -1,33 +1,43 @@
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
-public class MainMenu : EditorWindow
+public class MainMenu : MonoBehaviour
 {
+    private UIDocument mainUi;
 
-    public 
+    private Button playBtn;
+    private Button settingsBtn;
+    private Button scoreBtn;
 
-    [SerializeField]
-    private VisualTreeAsset m_VisualTreeAsset = default;
-
-    [MenuItem("Window/UI Toolkit/MainMenu")]
-    public static void ShowExample()
+    private void OnEnable()
     {
-        MainMenu wnd = GetWindow<MainMenu>();
-        wnd.titleContent = new GUIContent("MainMenu");
+        mainUi = GetComponent<UIDocument>();
+
+        playBtn = mainUi.rootVisualElement.Q<Button>("playBtn");
+        playBtn.RegisterCallback<ClickEvent>(playClick);
+
+        settingsBtn = mainUi.rootVisualElement.Q<Button>("settingsBtn");
+        settingsBtn.RegisterCallback<ClickEvent>(settingsClick);
+
+        scoreBtn = mainUi.rootVisualElement.Q<Button>("scoreBtn");
+        scoreBtn.RegisterCallback<ClickEvent>(scoreClick);
+
     }
 
-    public void CreateGUI()
+    public void playClick(ClickEvent e)
     {
-        // Each editor window contains a root VisualElement object
-        VisualElement root = rootVisualElement;
-
-        // VisualElements objects can contain other VisualElement following a tree hierarchy.
-        VisualElement label = new Label("Hello World! From C#");
-        root.Add(label);
-
-        // Instantiate UXML
-        VisualElement labelFromUXML = m_VisualTreeAsset.Instantiate();
-        root.Add(labelFromUXML);
+        SceneManager.LoadScene("World1");
     }
+
+    public void settingsClick(ClickEvent e)
+    {
+        SceneManager.LoadScene("Option");
+    }
+
+    public void scoreClick(ClickEvent e)
+    {
+    }
+
 }

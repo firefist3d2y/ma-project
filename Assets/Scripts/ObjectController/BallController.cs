@@ -20,6 +20,8 @@ public class BallController : MonoBehaviour
 
     private int score = 0;
     public TextMeshProUGUI scoreText;
+    public int world;
+    public int level;
 
     // Start is called before the first frame update
     void Start()
@@ -41,8 +43,8 @@ public class BallController : MonoBehaviour
     // called once per fixed frame-rate frame
     private void FixedUpdate()
     {
-        Debug.Log("x: " + movementX.ToString() + " !!! y: "
-    + movementY.ToString());
+        //Debug.Log("x: " + movementX.ToString() + " !!! y: "
+    //+ movementY.ToString());
 
         // 3D movement vector 
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
@@ -73,7 +75,7 @@ public class BallController : MonoBehaviour
         }
         if (other.gameObject.CompareTag("GameEnd"))
         {
-            //@todo temporary
+            DataPersistenceManager.getInstance().SaveLevel(world, level, score);
             SceneManager.LoadScene("MainMenu");
         }
     }
