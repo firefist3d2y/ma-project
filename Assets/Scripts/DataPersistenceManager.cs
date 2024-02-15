@@ -17,8 +17,8 @@ public class DataPersistenceManager
         if (Instance == null)
         {
             Instance = new DataPersistenceManager();
+            Instance.LoadData();
         }
-        
         return Instance;
     }
 
