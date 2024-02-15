@@ -25,14 +25,12 @@ public class BallController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
         rb = GetComponent<Rigidbody>();
     }
 
     // when move input is detected
     void OnMove(InputValue movementValue)
     {
-        
         Vector2 movementVector = movementValue.Get<Vector2>();
 
         movementX = movementVector.x;
@@ -42,7 +40,6 @@ public class BallController : MonoBehaviour
     // called once per fixed frame-rate frame
     private void FixedUpdate()
     {
-
         // 3D movement vector 
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
 
@@ -70,7 +67,7 @@ public class BallController : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.gameObject.tag);
+        //Debug.Log(other.gameObject.tag);
         if (other.gameObject.CompareTag("PickUp"))
         {
             other.gameObject.SetActive(false);
@@ -97,5 +94,4 @@ public class BallController : MonoBehaviour
     {
         scoreText.text = "Score: " + score.ToString();
     }
-
 }

@@ -26,4 +26,10 @@ public class MovingWallMover : MonoBehaviour
         transform.Translate(new Vector3(0f, 0f, speed) * Time.deltaTime);
 
     }
+
+    public void OnCollisionEnter(Collision collision)
+    {
+        speed *= -1;
+        transform.Translate(new Vector3(0f, 0f, speed) * Time.deltaTime);
+    }
 }
