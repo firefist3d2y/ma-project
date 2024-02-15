@@ -63,6 +63,7 @@
     <Compile Include="Assets\SceneReload.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\Scripts\MenuController\MainMenuController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Scripts\ObjectController\PickUpRotator.cs" />
     <Compile Include="Assets\KeyScript.cs" />
@@ -119,6 +120,7 @@
     <None Include="Assets\#NVJOB Water Shaders V2\Imported packages\#NVJOB Water Shaders V2\Water Specular.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\UI Toolkit\Menues\MainMenu\PlayMenu.uxml" />
     <None Include="Assets\Materials\WorldMaterialsFree\Shaders\WorldMatFree.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
@@ -131,8 +133,9 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\UI Toolkit\Menues\pauseMenu.uxml" />
+    <None Include="Assets\UI Toolkit\Menues\pauseMenu\pauseMenu.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\UI Toolkit\Menues\MainMenu\MainMenu.uxml" />
     <None Include="Assets\#NVJOB Water Shaders V2\Imported packages\#NVJOB Water Shaders V2\Water Surface.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
@@ -141,6 +144,7 @@
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\SandalStudio\Snow FX\Shaider\Snow FX.shader" />
+    <None Include="Assets\UI Toolkit\Menues\MainMenu\MainMenu.uss" />
     <None Include="Assets\#NVJOB Water Shaders V2\Imported packages\#NVJOB Water Shaders V2\NvWaters.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
