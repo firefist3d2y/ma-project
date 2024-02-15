@@ -20,6 +20,8 @@ public class BallController : MonoBehaviour
 
     private int score = 0;
     public TextMeshProUGUI scoreText;
+    public int world;
+    public int level;
 
     // Start is called before the first frame update
     void Start()
@@ -73,7 +75,7 @@ public class BallController : MonoBehaviour
         }
         if (other.gameObject.CompareTag("GameEnd"))
         {
-            //@todo temporary
+            DataPersistenceManager.getInstance().SaveLevel(world, level, score);
             SceneManager.LoadScene("MainMenu");
         }
     }
