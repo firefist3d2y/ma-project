@@ -16,21 +16,24 @@ public class BallController : MonoBehaviour
     private float startAccX = 0;
     private float startAccY = 0;
 
-    public float acceleration = 2;
-    public float maxSpeed = 5;
+    public float speed = 1;
 
     private int score = 0;
     public TextMeshProUGUI scoreText;
+    public int world;
+    public int level;
 
     // Start is called before the first frame update
     void Start()
     {
+        
         rb = GetComponent<Rigidbody>();
     }
 
     // when move input is detected
     void OnMove(InputValue movementValue)
     {
+        
         Vector2 movementVector = movementValue.Get<Vector2>();
 
         movementX = movementVector.x;
@@ -40,6 +43,9 @@ public class BallController : MonoBehaviour
     // called once per fixed frame-rate frame
     private void FixedUpdate()
     {
+        //Debug.Log("x: " + movementX.ToString() + " !!! y: "
+    //+ movementY.ToString());
+
         // 3D movement vector 
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
 
@@ -50,24 +56,17 @@ public class BallController : MonoBehaviour
                 startAccX = Input.acceleration.x;
                 startAccY = Input.acceleration.y;
             }
-
             movement = new Vector3(Input.acceleration.x - startAccX, 0.0f, Input.acceleration.y - startAccY);
-
+            //rb.velocity = movement * speed;
         }
 
         // Apply force to the Rigidbody
-        rb.AddForce(movement * acceleration);
-
-        // stay under maxSpeed
-        if (rb.velocity.magnitude > maxSpeed)
-        {
-            rb.velocity = rb.velocity.normalized * maxSpeed;
-        }
+        rb.AddForce(movement * speed);
     }
 
     void OnTriggerEnter(Collider other)
     {
-        //Debug.Log(other.gameObject.tag);
+        Debug.Log(other.gameObject.tag);
         if (other.gameObject.CompareTag("PickUp"))
         {
             other.gameObject.SetActive(false);
@@ -76,17 +75,17 @@ public class BallController : MonoBehaviour
         }
         if (other.gameObject.CompareTag("GameEnd"))
         {
-            //@todo temporary
+            DataPersistenceManager.getInstance().SaveLevel(world, level, score);
             SceneManager.LoadScene("MainMenu");
         }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        // @todo: move in Obstacle Classes
+        
         if (collision.gameObject.CompareTag("Obstacle"))
         {
-            rb.AddForce(70f, 0f, 70f);
+            rb.AddForce(90f, 0f, 90f);
         }
     }
 
@@ -94,4 +93,5 @@ public class BallController : MonoBehaviour
     {
         scoreText.text = "Score: " + score.ToString();
     }
+
 }
