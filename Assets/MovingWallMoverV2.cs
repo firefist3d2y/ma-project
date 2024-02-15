@@ -8,7 +8,6 @@ public class MovingWallMoverV2 : MonoBehaviour
     private float startX;
     private float startY;
     private float startZ;
-    private Dictionary<string, bool> axis;
     public bool useX;
     public bool useY;
     public bool useZ;
