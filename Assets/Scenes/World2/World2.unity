@@ -228,7 +228,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: World1_Level4
+          m_StringArgument: W2L4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &183879468
@@ -374,7 +374,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: World1_Level2
+          m_StringArgument: W2L2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &203671078
@@ -1095,7 +1095,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: World1_Level3
+          m_StringArgument: W2L3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1008874828
@@ -1497,6 +1497,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3088108946669494700, guid: 823f52166ef0236498647f55f98ab731, type: 3}
+      propertyPath: m_ScaleFactor
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6728070606938478690, guid: 823f52166ef0236498647f55f98ab731, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -1872,7 +1876,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: World1_Level5
+          m_StringArgument: W2L5
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2074766581

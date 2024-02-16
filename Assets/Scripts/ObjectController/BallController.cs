@@ -62,6 +62,11 @@ public class BallController : MonoBehaviour
 
         // Apply force to the Rigidbody
         rb.AddForce(movement * speed);
+
+        if(gameObject.transform.position.y < -20)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 
     void OnTriggerEnter(Collider other)

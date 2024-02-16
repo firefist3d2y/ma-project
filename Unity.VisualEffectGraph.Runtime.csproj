@@ -10,10 +10,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9F3CA921-46A2-33E1-360D-F9CB27C2A38C}</ProjectGuid>
+    <ProjectGuid>{D0D3BA67-D542-8167-12A0-B3C3E8C2E444}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Unity.VisualEffectGraph.Runtime</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -23,7 +23,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2022_3_14;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2022_3_14;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;VFX_HAS_TIMELINE;VFX_HAS_TERRAINMODULE;VFX_HAS_UI;VFX_HAS_PHYSICS;VFX_HAS_AUDIO;VFX_HAS_INPUT_SYSTEM_PACKAGE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
@@ -60,112 +60,141 @@
     <Analyzer Include="M:\Programme\Unity\Editor\2022.3.16f1\2022.3.14f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SceneReload.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
-    <Compile Include="Assets\Scripts\MenuController\MainMenuController.cs" />
-    <Compile Include="Assets\Scripts\MenuController\SettingsMenuController.cs" />
-    <Compile Include="Assets\AN Interactive Physical Door Pack\Scripts\AN_PlugScript.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
-    <Compile Include="Assets\Scripts\ObjectController\PickUpRotator.cs" />
-    <Compile Include="Assets\KeyScript.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
-    <Compile Include="Assets\Scripts\MenuController\ScoreMenuController.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
-    <Compile Include="Assets\ActivationToggle.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
-    <Compile Include="Assets\AN Interactive Physical Door Pack\Scripts\AN_DoorScript.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
-    <Compile Include="Assets\coll.cs" />
-    <Compile Include="Assets\Scripts\CollectableRotationScript.cs" />
-    <Compile Include="Assets\Scripts\ObjectController\World2\RampController.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-    <Compile Include="Assets\Scripts\ObjectController\BallController.cs" />
-    <Compile Include="Assets\AN Interactive Physical Door Pack\Scripts\AN_DoorKey.cs" />
-    <Compile Include="Assets\PortalController.cs" />
-    <Compile Include="Assets\Scripts\ObjectController\MovingWallMover.cs" />
-    <Compile Include="Assets\Scripts\MenuController\WorldMenuController.cs" />
-    <Compile Include="Assets\PlayButtonScript.cs" />
-    <Compile Include="Assets\Scripts\ObjectController\World2\LeverController.cs" />
-    <Compile Include="Assets\Scripts\MenuController\PauseMenuController.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
-    <Compile Include="Assets\Scripts\GameData.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-    <Compile Include="Assets\Scripts\ObjectController\World2\OpeningObject.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
-    <Compile Include="Assets\Scripts\ObjectController\SpinnerRotator.cs" />
-    <Compile Include="Assets\Scripts\ObjectController\World2\GateController.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
-    <Compile Include="Assets\BallMovementScript.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Imported packages\#NVJOB Water Shaders V2\NVWaterShaders.cs" />
-    <Compile Include="Assets\Scripts\DataPersistenceManager.cs" />
-    <Compile Include="Assets\MovingWallMoverV2.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-    <Compile Include="Assets\Scripts\ObjectController\World2\DoorKeyController.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
-    <Compile Include="Assets\Scripts\SceneChanger.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-    <Compile Include="Assets\Scripts\ObjectController\World2\DoorController.cs" />
-    <Compile Include="Assets\MovingCubeController.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
-    <Compile Include="Assets\Scripts\ObjectController\World2\OpenableObject.cs" />
-    <Compile Include="Assets\unlockGateScript.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
-    <Compile Include="Assets\AN Interactive Physical Door Pack\Scripts\AN_HeroController.cs" />
-    <Compile Include="Assets\AN Interactive Physical Door Pack\Scripts\AN_HeroInteractive.cs" />
-    <Compile Include="Assets\Scripts\ObjectController\BallCameraController.cs" />
-    <Compile Include="Assets\MovingBlockController.cs" />
-    <Compile Include="Assets\AN Interactive Physical Door Pack\Scripts\AN_Button.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXTransformBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\Playables\VisualEffectControl\VisualEffectControlTrackMixerBehaviour.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXRaycastBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\SDF\MeshToSDFBaker.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXInputTouchBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXUIDropdownBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXTerrainBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\OutputEventHandlers\VFXOutputEventAbstractHandler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\Playables\VisualEffectControl\VisualEffectControlTrack.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\PackageInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXInputAxisBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\EventBinding\VFXEventBinderBase.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\VFXPropertyBindingAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXPositionBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXMultiplePositionBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\EventBinding\Implementation\VFXVisibilityEventBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXVelocityBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\CustomSpawners\LoopAndDelay.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\ExposedProperty.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\CustomSpawners\SpawnOverDistance.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\Playables\VisualEffectActivationDeprecated\VisualEffectActivationClip.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\Playables\VisualEffectActivationDeprecated\VisualEffectActivationTrackMigration.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\VFXBinderBase.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXUIToggleBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXEnabledBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXPlaneBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\Playables\VisualEffectControl\VisualEffectControlPlayableBehaviour.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\VFXPropertyBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXLightBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXUISliderBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\Playables\VisualEffectControl\VisualEffectControlClip.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXInputButtonBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\Playables\VisualEffectActivationDeprecated\VisualEffectActivationBehaviour.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\EventBinding\Implementation\VFXTriggerEventBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXHierarchyAttributeMapBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\VFXRuntimeResources.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXInputKeyBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXSphereBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\CustomSpawners\IncrementStripIndexOnStart.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Types\VFXTypes.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXInputMouseBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\EventBinding\Implementation\VFXRigidBodyCollisionEventBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\CustomSpawners\SetSpawnTime.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\VFXBinderAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\EventBinding\Implementation\VFXMouseEventBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXAudioSpectrumBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Runtime\Utilities\PropertyBinding\Implementation\VFXPreviousPositionBinder.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\#NVJOB Water Shaders V2\Imported packages\#NVJOB Water Shaders V2\Water Specular.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\UI Toolkit\Menues\MainMenu\WorldMenu.uxml" />
-    <None Include="Assets\UI Toolkit\Menues\MainMenu\ScoreMenu.uxml" />
-    <None Include="Assets\Materials\WorldMaterialsFree\Shaders\WorldMatFree.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\UI Toolkit\Menues\pauseMenu\pauseMenu.uxml" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\UI Toolkit\Menues\MainMenu\MainMenu.uxml" />
-    <None Include="Assets\#NVJOB Water Shaders V2\Imported packages\#NVJOB Water Shaders V2\Water Surface.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\SandalStudio\Snow FX\Shaider\Snow FX.shader" />
-    <None Include="Assets\UI Toolkit\Menues\MainMenu\MainMenu.uss" />
-    <None Include="Assets\#NVJOB Water Shaders V2\Imported packages\#NVJOB Water Shaders V2\NvWaters.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePoints\PassVelocity.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleLinesSW\Pass.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePlanarPrimitives\PassForward.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Unity.VisualEffectGraph.Runtime.asmdef" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleHexahedron\PassBasicForward.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleMeshes\PassSelection.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleSpheres\PassShadowCaster.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\VFXInit.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleMeshes\PassDepth.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\VFXGlobalSortKeys.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePoints\PassForwardCommon.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleLines\PassSelection.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\VFXCopyBuffer.compute" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\Empty.shader" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleDecals\PassForward.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleLines\PassVelocity.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\VFXCommonOutput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleLinesSW\PassForward.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleHexahedron\Pass.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\VFXParticleStripCommon.hlsl" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePlanarPrimitives\PassVelocity.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleMeshes\PassForward.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\VFXMeshSampling.hlsl" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleLines\PassForward.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\VFXFillIndirectArgs.compute" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePoints\PassDepth.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\VFXMatricesOverride.hlsl" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleLinesSW\PassSelection.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\VFXOutputUpdate.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePlanarPrimitives\PassGS.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\SDFBaker\SdfUtils.hlsl" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePoints\PassDepthOrMV.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleHexahedron\PassForward.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePoints\PassSelection.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleDecals\Pass.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\VFXBoundsReduction.hlsl" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePoints\PassDepthNormal.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\Common\VFXCommonCompute.hlsl" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePoints\Pass.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\VFXParticleHeader.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePlanarPrimitives\PassDepthOrMV.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePlanarPrimitives\PassDepth.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleSpheres\PassDepth.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleMeshes\PassDepthNormal.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\VFXUpdate.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleLinesSW\PassDepthNormal.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePlanarPrimitives\PassShadowCaster.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleHexahedron\PassBasicForwardCommon.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePlanarPrimitives\PassForwardCommon.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleLines\PassDepth.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleMeshes\PassVelocity.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\SDFBaker\GenSdfRayMap.compute" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePoints\PassShadowCaster.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\VFXNoise.hlsl" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleHexahedron\PassDepth.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleHexahedron\PassSelection.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleHexahedron\PassVelocity.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\Sort.compute" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\SDFBaker\RayMapVoxelize.shader" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleLines\PassForwardCommon.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleLinesSW\PassVelocity.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\VFXInstancing.hlsl" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleMeshes\Pass.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleLines\PassShadowCaster.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePlanarPrimitives\PassDepthNormal.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleLinesSW\PassForwardCommon.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleHexahedron\PassShadowCaster.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleLines\PassDepthOrMV.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\VFXCommon.hlsl" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleLinesSW\PassShadowCaster.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePoints\PassForward.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleLinesSW\PassDepth.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePlanarPrimitives\Pass.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\VFXParticleCommon.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleMeshes\PassShadowCaster.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleMeshes\PassDepthOrMV.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleMeshes\PassForwardCommon.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleLinesSW\PassDepthOrMV.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePlanarPrimitives\PassVS.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleDecals\PassSelection.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticlePlanarPrimitives\PassSelection.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleSpheres\Pass.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\UpdateStrips.compute" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleLines\PassDepthNormal.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleHexahedron\PassDepthOrMV.template" />
+    <None Include="Library\PackageCache\com.unity.visualeffectgraph@14.0.9\Shaders\ParticleLines\Pass.template" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -488,12 +517,56 @@
       <HintPath>M:\Programme\Unity\Editor\2022.3.16f1\2022.3.14f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>M:\Programme\Unity\Editor\2022.3.16f1\2022.3.14f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>M:\Programme\Unity\Editor\2022.3.16f1\2022.3.14f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>M:\Programme\Unity\Editor\2022.3.16f1\2022.3.14f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UWP.Extensions">
+      <HintPath>M:\Programme\Unity\Editor\2022.3.16f1\2022.3.14f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
@@ -996,118 +1069,6 @@
       <HintPath>M:\Programme\Unity\Editor\2022.3.16f1\2022.3.14f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.2D.IK.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Burst.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Path.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Aseprite.Common">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Collections">
-      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Aseprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="PsdPlugin">
-      <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Burst">
-      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Extras">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.005">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEngineBridge.001">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
       <Private>False</Private>
@@ -1116,92 +1077,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.InputSystem.ForUI">
-      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Searcher.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.VisualEffectGraph.Runtime.csproj">
-      <Project>{D0D3BA67-D542-8167-12A0-B3C3E8C2E444}</Project>
-      <Name>Unity.VisualEffectGraph.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{F962460B-0239-BEA7-CF3F-310914C0BBF3}</Project>
-      <Name>Unity.RenderPipelines.Core.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{5157B2F4-0673-0173-1121-4A3979C431D2}</Project>
-      <Name>Unity.2D.Sprite.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
-      <Project>{07FB86DF-B57B-3DDC-A0D2-5EB73065FA0D}</Project>
-      <Name>Unity.RenderPipelines.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualEffectGraph.Editor.csproj">
-      <Project>{B4B21776-773D-CBF2-E04C-4C05D831E355}</Project>
-      <Name>Unity.VisualEffectGraph.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
-      <Project>{50B6D3C9-B1DB-632D-F9BA-F09167FFFF34}</Project>
-      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
-      <Project>{D73D484D-AF0D-8555-3A39-2DBFBDABFC55}</Project>
-      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{4FDFD2C3-1953-1B72-D692-12DB8888E31D}</Project>
-      <Name>Unity.ShaderGraph.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{6B5DD52C-53D3-F5CE-758E-316139190CF1}</Project>
       <Name>UnityEditor.UI</Name>
@@ -1209,10 +1086,6 @@
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{ABE38588-EA41-BEDB-4774-24FC8AAA65B8}</Project>
       <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
-      <Project>{AF632E00-FB1F-E304-6D7F-9C3D3B84267B}</Project>
-      <Name>Unity.2D.Tilemap.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

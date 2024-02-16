@@ -8,7 +8,7 @@ using UnityEngine.Profiling;
 public class DataPersistenceManager
 {
     private GameData gameData;
-    public string savePath;
+    public string savePath = "/saveRollGame.dat";
 
     private static DataPersistenceManager Instance;
 
@@ -17,9 +17,15 @@ public class DataPersistenceManager
         if (Instance == null)
         {
             Instance = new DataPersistenceManager();
+            Instance.LoadData();
         }
         
         return Instance;
+    }
+
+    public GameData GetGameData()
+    {
+        return gameData;
     }
 
     public void SaveLevel(int world, int level, int score)
@@ -52,7 +58,7 @@ public class DataPersistenceManager
         }
     }
 
-    public void LoadData()
+    private void LoadData()
     {
         if (File.Exists(savePath))
         {

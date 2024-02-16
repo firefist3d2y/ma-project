@@ -28,16 +28,17 @@ public class MainMenu : MonoBehaviour
 
     public void playClick(ClickEvent e)
     {
-        SceneManager.LoadScene("World1");
+        SceneManager.LoadScene("WorldMenu");
     }
 
     public void settingsClick(ClickEvent e)
     {
-        SceneManager.LoadScene("Option");
+        SceneManager.LoadScene("SettingsMenu");
     }
 
     public void scoreClick(ClickEvent e)
     {
+        SceneManager.LoadScene("ScoreMenu");
     }
 
 }

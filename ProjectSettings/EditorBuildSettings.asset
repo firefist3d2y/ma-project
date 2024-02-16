@@ -9,33 +9,60 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/WorldMenu.unity
+    guid: e11415f1a5b2fbc428f4d57965b6d893
+  - enabled: 1
+    path: Assets/Scenes/SettingsMenu.unity
+    guid: 17260828f6c77cd4997a5599f4dce3d5
+  - enabled: 1
+    path: Assets/Scenes/ScoreMenu.unity
+    guid: a03bb2a854d4c584cad714d866cd0fa7
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: bd93e69d346eda141b1598f19a84f224
   - enabled: 1
-    path: Assets/Scenes/World1.unity
+    path: Assets/Scenes/World1/World1.unity
     guid: 6eb328b20c2f4da489f7f55a9d9f4299
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
+    path: Assets/Scenes/Muster.unity
     guid: 6e8a3d69a0b14f448b91a5b7ba54cd5d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/World2.unity
     guid: fc6e8e97bd9c7734f9053b8411dde3a2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/World3.unity
     guid: 455577c7205ff4041b7d22a4faf44f54
   - enabled: 1
-    path: Assets/Scenes/World1_Level1.unity
+    path: Assets/Scenes/World2/World2.unity
+    guid: ac7b65180584a434b9429877ff11c304
+  - enabled: 1
+    path: Assets/Scenes/World2/W2L5.unity
+    guid: c37fa25fd885fb04dbbba4fd881f21d2
+  - enabled: 1
+    path: Assets/Scenes/World2/W2L4.unity
+    guid: 6f38545c2e4c7244cb967ea465812407
+  - enabled: 1
+    path: Assets/Scenes/World2/W2L2.unity
+    guid: 3aa74077e2118ab44b347de259c99488
+  - enabled: 1
+    path: Assets/Scenes/World2/W2L3.unity
+    guid: 41663edb0672aad428bbd67812ffefc8
+  - enabled: 1
+    path: Assets/Scenes/World2/W2L1.unity
+    guid: f80e1656d2b876740994216923cf9465
+  - enabled: 1
+    path: Assets/Scenes/World1/World1_Level1.unity
     guid: 2e9339f101454a743a1327b2e2d8b7a9
   - enabled: 1
-    path: Assets/Scenes/World1_Level2.unity
+    path: Assets/Scenes/World1/World1_Level2.unity
     guid: e3d8f739f34f4624e8f5a16effe326e7
   - enabled: 1
-    path: Assets/Scenes/World1_Level3.unity
+    path: Assets/Scenes/World1/World1_Level3.unity
     guid: a0b222d3b11e01c4184a6dd8753d358b
   - enabled: 1
-    path: Assets/Scenes/World1_Level4.unity
+    path: Assets/Scenes/World1/World1_Level4.unity
     guid: c33b50755e5365f4cb41ffd85e0d8edc
   - enabled: 1
-    path: Assets/Scenes/World1_Level5.unity
+    path: Assets/Scenes/World1/World1_Level5.unity
     guid: e6e154dfa7c830443bfe3e23b3cdd726
   m_configObjects: {}
