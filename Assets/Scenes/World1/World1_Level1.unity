@@ -383,6 +383,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.3700001
       objectReference: {fileID: 0}
+    - target: {fileID: 554007385124509737, guid: a641b2ca767dde84eb506882cfa2585f, type: 3}
+      propertyPath: m_Mass
+      value: 0.04
+      objectReference: {fileID: 0}
     - target: {fileID: 2029089366467173424, guid: a641b2ca767dde84eb506882cfa2585f, type: 3}
       propertyPath: m_Name
       value: Ground
