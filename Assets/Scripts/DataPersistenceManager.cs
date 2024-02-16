@@ -8,7 +8,7 @@ using UnityEngine.Profiling;
 public class DataPersistenceManager
 {
     private GameData gameData;
-    public string savePath = "/saveRollGame.dat";
+    public string savePath = "/saveRollGame.json";
 
     private static DataPersistenceManager Instance;
 
@@ -28,9 +28,9 @@ public class DataPersistenceManager
         return gameData;
     }
 
-    public void SaveLevel(int world, int level, int score)
+    public void SaveLevel(int world, int level, string score, string time)
     {
-        gameData.saveLevel(world, level, score);
+        gameData.saveLevel(world, level, score, time);
         SaveData();
     }
 

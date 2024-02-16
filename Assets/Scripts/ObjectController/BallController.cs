@@ -23,11 +23,14 @@ public class BallController : MonoBehaviour
     public int world;
     public int level;
 
+    private long startTime;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        startTime = DateTime.Now.Ticks;
         rb = GetComponent<Rigidbody>();
+        Debug.Log(DateTime.Now.ToString());
     }
 
     // when move input is detected
@@ -80,7 +83,9 @@ public class BallController : MonoBehaviour
         }
         if (other.gameObject.CompareTag("GameEnd"))
         {
-            DataPersistenceManager.getInstance().SaveLevel(world, level, score);
+            Debug.Log(DateTime.Now.ToString());
+            Debug.Log(new DateTime(DateTime.Now.Ticks - startTime).ToString("mm:ss"));
+            DataPersistenceManager.getInstance().SaveLevel(world, level, ""+score, new DateTime(DateTime.Now.Ticks - startTime).ToString("mm:ss"));
             SceneManager.LoadScene("MainMenu");
         }
     }

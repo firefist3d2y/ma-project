@@ -10,4 +10,9 @@ public class DoorKeyController2 : OpeningObject
         toggle();
         Destroy(gameObject);
     }
+
+    private void Update()
+    {
+        transform.Rotate(new Vector3(0,30,0) * Time.deltaTime);
+    }
 }

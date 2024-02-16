@@ -549,6 +549,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5968877755081523293, guid: a641b2ca767dde84eb506882cfa2585f, type: 3}
+      propertyPath: level
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968877755081523293, guid: a641b2ca767dde84eb506882cfa2585f, type: 3}
+      propertyPath: world
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5968877755081523293, guid: a641b2ca767dde84eb506882cfa2585f, type: 3}
       propertyPath: maxSpeed
       value: 5
       objectReference: {fileID: 0}

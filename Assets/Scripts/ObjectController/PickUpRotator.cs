@@ -18,6 +18,6 @@ public class PickUpRotator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       transform.Rotate(speedX, speedY, speedZ);
+       transform.Rotate(offset * Time.deltaTime) ;
     }
 }
