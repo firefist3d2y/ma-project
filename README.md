@@ -26,3 +26,7 @@
 
 ## Dokumentation 
 	- der erste Abschnitt (Dokumentation zu Welt 1)
+
+# Fabian Mersch
+Aufgrund von Schwierigkeiten mit der Integration der driten Welt ist es leider nur möglich, den letzten Teil des Spiels (Welt 3) in einem separaten Repository zu betrachten. 
+Die Ursache hierfür ist technischer Natur. Es wurde viel versucht, um dies beheben. Doch leider konnte dieses Git Repository nicht geklont werden. Die genaue Ursache ist leider nicht bekannt und konnte deshalb nicht behoben werden.
