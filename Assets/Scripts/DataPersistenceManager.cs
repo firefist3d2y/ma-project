@@ -8,7 +8,7 @@ using UnityEngine.Profiling;
 public class DataPersistenceManager
 {
     private GameData gameData;
-    public string savePath = "/saveRollGame.json";
+    public string savePath = Application.persistentDataPath + "/saveRollGame.json";
 
     private static DataPersistenceManager Instance;
 
