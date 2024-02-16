@@ -502,7 +502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31f82a9e4f946854395c1bccbca3dda3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 0.8
   scoreText: {fileID: 1707253274}
   world: 2
   level: 3
