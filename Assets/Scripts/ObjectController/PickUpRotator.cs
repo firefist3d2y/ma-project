@@ -5,9 +5,19 @@ using UnityEngine;
 public class PickUpRotator : MonoBehaviour
 {
 
+    private Vector3 offset;
+    public float speedX = 0f;
+    public float speedY = 0f;
+    public float speedZ = 0f;
+
+    void Start()
+    {
+        offset = new Vector3(speedX, speedY, speedZ);
+    }
+    
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
+       transform.Rotate(speedX, speedY, speedZ);
     }
 }
